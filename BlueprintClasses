@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Emergency Production</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Emergency Kiln</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_PreciousMetals</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Emergency Tools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1 Tech</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T1 Tools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2 Tech</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T2 Tools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T3 Tech</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>T3 Tools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>M1 Tech</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>M1 Tools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>M2 Tech</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>M2 Tools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Reverse Engineering</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+    <Entry Class="Emergency Production" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="Display" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="ReactorComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="ThrustComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="MedicalComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="Emergency Production" BlueprintSubtypeId="Canvas" />
+	<Entry Class="Emergency Production" BlueprintSubtypeId="T1 Research Material" />
+	<Entry Class="Emergency Production" BlueprintSubtypeId="StoneOreToIngot" />
+	
+	<Entry Class="Emergency Tools" BlueprintSubtypeId="Welder" />
+	<Entry Class="Emergency Tools" BlueprintSubtypeId="AngleGrinder" />
+	<Entry Class="Emergency Tools" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="Emergency Tools" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="Emergency Tools" BlueprintSubtypeId="HydrogenBottle" />
+	
+    <Entry Class="Emergency Kiln" BlueprintSubtypeId="SilverOreToIngot" />
+    <Entry Class="Emergency Kiln" BlueprintSubtypeId="GoldOreToIngot" />
+    <Entry Class="Emergency Kiln" BlueprintSubtypeId="SiliconOreToIngot" />
+	
+	<Entry Class="T1 Tech" BlueprintSubtypeId="T1 Technical Component" />
+	<Entry Class="T1 Tech" BlueprintSubtypeId="T1RM+" />
+	<Entry Class="T1 Tech" BlueprintSubtypeId="T2 Research Material" />
+	<Entry Class="T1 Tech" BlueprintSubtypeId="Hacked Mil-Tech Schematics" />
+	<Entry Class="T1 Tech" BlueprintSubtypeId="GravityGeneratorComponent" />
+	<Entry Class="T1 Tech" BlueprintSubtypeId="Superconductor" />
+	<Entry Class="T1 Tech" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="Display" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="ReactorComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="ThrustComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="MedicalComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="T1 Tech" BlueprintSubtypeId="Canvas" />
+	
+	<Entry Class="T1 Tools" BlueprintSubtypeId="Welder" />
+	<Entry Class="T1 Tools" BlueprintSubtypeId="AngleGrinder" />
+	<Entry Class="T1 Tools" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="T1 Tools" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="T1 Tools" BlueprintSubtypeId="HydrogenBottle" />
+	<Entry Class="T1 Tools" BlueprintSubtypeId="AutomaticRifle" />
+	<Entry Class="T1 Tools" BlueprintSubtypeId="Welder2" />
+	<Entry Class="T1 Tools" BlueprintSubtypeId="AngleGrinder2" />
+	<Entry Class="T1 Tools" BlueprintSubtypeId="HandDrill2" />
+	
+	<Entry Class="T2 Tech" BlueprintSubtypeId="T2 Technical Component" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="T1RM+" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="T2RM+" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="T3 Research Material" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="Hacked Mil-Tech Schematics" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="GravityGeneratorComponent" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="Superconductor" />
+	<Entry Class="T2 Tech" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="Display" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="ReactorComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="ThrustComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="MedicalComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="T2 Tech" BlueprintSubtypeId="Canvas" />
+	
+	<Entry Class="T2 Tools" BlueprintSubtypeId="Welder" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="AngleGrinder" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="T2 Tools" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="T2 Tools" BlueprintSubtypeId="HydrogenBottle" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="AutomaticRifle" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="Welder2" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="AngleGrinder2" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="HandDrill2" />
+    <Entry Class="T2 Tools" BlueprintSubtypeId="Welder3" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="AngleGrinder3" />
+	<Entry Class="T2 Tools" BlueprintSubtypeId="HandDrill3" />
+	
+	<Entry Class="T3 Tech" BlueprintSubtypeId="T2 Technical Component" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="T1RM+" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="T2RM+" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="T3RM+" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="Hacked Mil-Tech Schematics" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="GravityGeneratorComponent" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="Superconductor" />
+	<Entry Class="T3 Tech" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="Display" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="ReactorComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="ThrustComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="MedicalComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="T3 Tech" BlueprintSubtypeId="Canvas" />
+	
+	<Entry Class="T3 Tools" BlueprintSubtypeId="Welder" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="AngleGrinder" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="T3 Tools" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="T3 Tools" BlueprintSubtypeId="HydrogenBottle" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="AutomaticRifle" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="Welder2" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="AngleGrinder2" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="HandDrill2" />
+    <Entry Class="T3 Tools" BlueprintSubtypeId="Welder3" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="AngleGrinder3" />
+	<Entry Class="T3 Tools" BlueprintSubtypeId="HandDrill3" />
+    <Entry Class="T3 Tools" BlueprintSubtypeId="Welder4" />
+    <Entry Class="T3 Tools" BlueprintSubtypeId="AngleGrinder4" />
+    <Entry Class="T3 Tools" BlueprintSubtypeId="HandDrill4" />
+	
+    <Entry Class="M1 Tech" BlueprintSubtypeId="M2 Research Material" />
+	<Entry Class="M1 Tech" BlueprintSubtypeId="ExplosivesComponent" />
+    <Entry Class="M1 Tech" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="M1 Tech" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+    <Entry Class="M1 Tech" BlueprintSubtypeId="Missile200mm" />
+	
+    <Entry Class="M1 Tools" BlueprintSubtypeId="AutomaticRifle" />
+    <Entry Class="M1 Tools" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+    <Entry Class="M1 Tools" BlueprintSubtypeId="PreciseAutomaticRifle" />
+	
+	<Entry Class="M2 Tech" BlueprintSubtypeId="M2 Technical Component" />
+	<Entry Class="M2 Tech" BlueprintSubtypeId="M2 Research Material" />
+	<Entry Class="M2 Tech" BlueprintSubtypeId="ExplosivesComponent" />
+    <Entry Class="M2 Tech" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="M2 Tech" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+    <Entry Class="M2 Tech" BlueprintSubtypeId="Missile200mm" />
+	
+    <Entry Class="M2 Tools" BlueprintSubtypeId="UltimateAutomaticRifle" />
+	<Entry Class="M2 Tools" BlueprintSubtypeId="AutomaticRifle" />
+    <Entry Class="M2 Tools" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+    <Entry Class="M2 Tools" BlueprintSubtypeId="PreciseAutomaticRifle" />
+	
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="T1toT1" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="T2toT1" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="T2toT2" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="T3toT2" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="T3toT3" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="M1toHacked" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="M2toHacked" />
+	<Entry Class="Reverse Engineering" BlueprintSubtypeId="M2toM2" />
+  </BlueprintClassEntries>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
+
