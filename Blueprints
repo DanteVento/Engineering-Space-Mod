@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <!-- Tech Tree -->
+    <Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1 Research Material</SubtypeId>
+      </Id>
+      <DisplayName>T1 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T1 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1 Technical Component</SubtypeId>
+      </Id>
+      <DisplayName>T1 Technical Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T1 Technical Component" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+		<TypeId>BlueprintDefinition</TypeId>
+	    <SubtypeId>T1RM+</SubtypeId>
+      </Id>
+      <DisplayName>T1 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T1 Research Material" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2 Research Material</SubtypeId>
+      </Id>
+      <DisplayName>T2 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T2 Research Material" />
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2 Technical Component</SubtypeId>
+      </Id>
+      <DisplayName>T2 Technical Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T2 Technical Component" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	    <Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2RM+</SubtypeId>
+      </Id>
+      <DisplayName>T2 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T2 Research Material" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3 Research Material</SubtypeId>
+      </Id>
+      <DisplayName>T3 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T3 Research Material" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3 Technical Component</SubtypeId>
+      </Id>
+      <DisplayName>T3 Technical Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T3 Technical Component" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3RM+</SubtypeId>
+      </Id>
+      <DisplayName>T3 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="T3 Research Material" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<!-- Military Tech Branch -->
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Hacked Mil-Tech Schematics</SubtypeId>
+      </Id>
+      <DisplayName>Hacked Mil-Tech Schematics</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Hacked Mil-Tech Schematics" />
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M1 Technical Component</SubtypeId>
+      </Id>
+      <DisplayName>M1 Technical Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="M1 Technical Component" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M2 Research Material</SubtypeId>
+      </Id>
+      <DisplayName>M2 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="M2 Research Material" />
+      <BaseProductionTimeInSeconds>3000</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M2 Technical Component</SubtypeId>
+      </Id>
+      <DisplayName>M2 Technical Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Silicon" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="M2 Technical Component" />
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<!-- Reverse Engineering -->
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1toT1</SubtypeId>
+      </Id>
+      <DisplayName>T1 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="T1 Technical Component" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Component" SubtypeId="T1 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2toT1</SubtypeId>
+      </Id>
+      <DisplayName>T1 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="T2 Research Material" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Component" SubtypeId="T1 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2toT2</SubtypeId>
+      </Id>
+      <DisplayName>T2 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="T2 Technical Component" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Component" SubtypeId="T2 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3toT2</SubtypeId>
+      </Id>
+      <DisplayName>T2 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="T3 Research Material" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Component" SubtypeId="T2 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3toT3</SubtypeId>
+      </Id>
+      <DisplayName>T3 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="T3 Technical Component" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Component" SubtypeId="T3 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M1toHacked</SubtypeId>
+      </Id>
+      <DisplayName>Hacked Mil-Tech Schematics</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="M1 Technical Component" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Component" SubtypeId="Hacked Mil-Tech Schematics" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+		<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M2toHacked</SubtypeId>
+      </Id>
+      <DisplayName>T1 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="M2 Research Material" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Component" SubtypeId="Hacked Mil-Tech Schematics" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+	<Blueprint>
+	  <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>M2toM2</SubtypeId>
+      </Id>
+      <DisplayName>T2 Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="M2 Technical Component" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Component" SubtypeId="M2 Research Material" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
